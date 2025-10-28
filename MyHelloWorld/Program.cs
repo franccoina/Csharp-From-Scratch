@@ -1,3 +1,15 @@
-Console.WriteLine("Hello, World! This is my first Razor Pages application.");
-var variable = Console.ReadLine();
-Console.WriteLine($"You entered: {variable}");
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            const string Name = "John";
+            string LastName = "John";
+
+            LastName = "Doe";
+
+            Console.WriteLine($"Hello, World. My name is {Name} {LastName}");
+        }
+    }
+}
