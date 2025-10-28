@@ -1,22 +1,21 @@
-namespace HelloWorld
+namespace MyHelloWorld
 {
     class Program
     {
         static void Main(string[] args)
         {
             // Variable declaration and initialization:
-            // var string message = "Hello, World!";
-            // var double number = 1.234;
-            // var bool isTrue = true;
-            // var int count = 5;
-            // var char letter = 'A';
-            // var null letter = null;
-            // var DateTime now = DateTime.Now;
-            // var DateOnly today = DateOnly.FromDateTime(DateTime.Now);
+            string message = "Hello, World!";
+            double number = 1.234;
+            bool isTrue = true;
+            int count = 5;
+            char letter = 'A';
+            DateTime now = DateTime.Now;
+            DateOnly today = DateOnly.FromDateTime(DateTime.Now);
 
             // Implicitly typed variables:
-            // var variable = "I am a string";
-            // const constant = "I am a string";
+            var variable = "I am a string";
+            const string constant = "I am a string... but you can't change me";
 
             DateOnly birthdateCoverted = new DateOnly();
             string fullNameInput;
