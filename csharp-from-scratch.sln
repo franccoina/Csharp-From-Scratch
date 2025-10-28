@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAndInheritance", "ClassesAndInheritance\ClassesAndInheritance.csproj", "{23917C9B-015D-9455-2B31-35DFCD94BE07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalsAndOperators", "ConditionalsAndOperators\ConditionalsAndOperators.csproj", "{F1005972-73EA-3799-5AB7-0CC88B8BB1FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopsPolymorphismAndExceptions", "LoopsPolymorphismAndExceptions\LoopsPolymorphismAndExceptions.csproj", "{62E6DACC-5A84-4192-3F65-FF5B12216585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyExercises", "MyExercises\MyExercises.csproj", "{2F8BF057-6F11-C55C-FA6D-F5BC7D49F5C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstRazorApp", "MyFirstRazorApp\MyFirstRazorApp.csproj", "{28065D6D-7B52-A033-F324-68AFB698759F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHelloWorld", "MyHelloWorld\MyHelloWorld.csproj", "{FFE234B2-D74A-C25A-E4E0-FEF2A31C9522}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23917C9B-015D-9455-2B31-35DFCD94BE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23917C9B-015D-9455-2B31-35DFCD94BE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23917C9B-015D-9455-2B31-35DFCD94BE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23917C9B-015D-9455-2B31-35DFCD94BE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1005972-73EA-3799-5AB7-0CC88B8BB1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1005972-73EA-3799-5AB7-0CC88B8BB1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1005972-73EA-3799-5AB7-0CC88B8BB1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1005972-73EA-3799-5AB7-0CC88B8BB1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E6DACC-5A84-4192-3F65-FF5B12216585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E6DACC-5A84-4192-3F65-FF5B12216585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E6DACC-5A84-4192-3F65-FF5B12216585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E6DACC-5A84-4192-3F65-FF5B12216585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F8BF057-6F11-C55C-FA6D-F5BC7D49F5C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8BF057-6F11-C55C-FA6D-F5BC7D49F5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8BF057-6F11-C55C-FA6D-F5BC7D49F5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8BF057-6F11-C55C-FA6D-F5BC7D49F5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28065D6D-7B52-A033-F324-68AFB698759F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28065D6D-7B52-A033-F324-68AFB698759F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28065D6D-7B52-A033-F324-68AFB698759F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28065D6D-7B52-A033-F324-68AFB698759F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE234B2-D74A-C25A-E4E0-FEF2A31C9522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE234B2-D74A-C25A-E4E0-FEF2A31C9522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE234B2-D74A-C25A-E4E0-FEF2A31C9522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE234B2-D74A-C25A-E4E0-FEF2A31C9522}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {366DBDB4-1A0F-4B7C-996D-F0B2AA28628E}
+	EndGlobalSection
+EndGlobal
