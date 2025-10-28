@@ -1,0 +1,38 @@
+services:
+  sqlserverdb:
+    image: mcr.microsoft.com/mssql/server:latest
+    container_name: libreriadigital-sql
+    environment:
+      SA_PASSWORD: "ITM_Desarrollo_Software_Franc_2025"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P ITM_Desarrollo_Software_Franc_2025 -C -Q 'SELECT 1' || exit 1"]
+      interval: 10s
+      retries: 10
+      start_period: 40s
+      timeout: 5s
+    volumes:
+      - mssql-data:/var/opt/mssql
+
+  api:
+    container_name: libreriadigital-api
+    build:
+      context: ./LibreriaDigital.Api
+      dockerfile: Dockerfile
+    depends_on:
+      sqlserverdb:
+        condition: service_healthy
+    ports:
+      - "5000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserverdb,1433;Database=LibreriaDigitalDb;User Id=sa;Password=ITM_Desarrollo_Software_Franc_2025;TrustServerCertificate=True;
+      - Jwt__Key=ITM_Desarrollo_Software_Franc_2025
+      - Jwt__Issuer=http://localhost:5000
+      - Jwt__Audience=http://localhost:5000
+      - Jwt__DurationInMinutes=1440
+
+volumes:
+  mssql-data:
